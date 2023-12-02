@@ -1,0 +1,48 @@
+.navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin: 0 20%; 
+    filter: blur(2px);
+}
+
+.ns{
+    display: flex;
+    justify-content: left;
+    font-family: Fira Sans Condensed;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.nothing{
+    color: #FFF;
+    font-family: var(--font-roboto);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    filter: blur(1px);
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.menu{
+    justify-content: right;
+}
+
+.bar{
+    background: #D9D9D9;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80vw;
+    height: 9px;
+    border-radius: 90px;
+}
