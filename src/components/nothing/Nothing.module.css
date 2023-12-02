@@ -4,18 +4,13 @@
     align-items: center;
     justify-content: space-between;
     padding-top: 30px;
-    margin: 0 20%; 
+    margin-left: 20%; 
+    margin-right: 20%;
 }
 
 .ns{
-    display: flex;
-    justify-content: left;
-    font-family: Fira Sans Condensed;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    
+    /*
+    */
 }
 
 
