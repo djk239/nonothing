@@ -9,9 +9,13 @@ export const Nothing = () => {
     return(
         <div>
             <nav className={styles.navbar}>
-                <img className={styles.ns} src={getImageUrl("nav/menuNN.png")}/>
-                <a className={styles.nothing}>NOTHING</a>
-                <img className={styles.menu} src={getImageUrl("nav/menuDK.png")}/>
+                <a href="https://www.merriam-webster.com/dictionary/nothing">
+                    <img className={styles.ns} src={getImageUrl("nav/menuNN.png")}/>
+                </a>
+                <h1 className={styles.nothing}>NOTHING</h1>
+                <a href="">
+                    <img className={styles.menu} src={getImageUrl("nav/menuDK.png")}/>
+                </a>
             </nav>
             <div className={styles.bar} />
 
