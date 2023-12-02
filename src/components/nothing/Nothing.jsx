@@ -14,6 +14,10 @@ export const Nothing = () => {
                 <img className={styles.menu} src={getImageUrl("nav/menuDK.png")}/>
             </nav>
             <div className={styles.bar} />
+
+            <section className={styles.section}>
+                
+            </section>
         </div>
     )
 }
