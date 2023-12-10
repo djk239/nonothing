@@ -1,0 +1,26 @@
+.container{
+    margin: 8vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prompt{
+    font-size: large;
+    font-weight: 650;
+    gap: 1.5px;
+}
+
+.input{
+    margin-top: 1%;
+    color: #a0a0a0;
+}
+
+.btn{
+    margin-top: .5%;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 90px;
+    width: 5vw;
+    height: 3vh;
+}
