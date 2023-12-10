@@ -1,0 +1,40 @@
+
+.navcontain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    gap: -0px;
+    flex-direction: row;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    filter: blur(0px);
+}
+
+.n2{
+    transform: scaleX(-1);
+    direction: rtl;
+}
+
+.nothing{
+    display: flex;
+    text-align: center;
+    margin: 0 19vw;
+    filter: blur(0px
+    );
+
+}
+
+.bar2{
+    background-color: whitesmoke;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80vw;
+    height: 9px;
+    border-radius: 90px;
+    box-sizing: border-box;
+}
