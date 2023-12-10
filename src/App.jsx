@@ -1,17 +1,18 @@
-import { useState } from 'react'
 import './App.css'
 import Navbar from './components/nav/Navbar'
 import Prompt from './components/prompts/Prompt'
+import Footer from './components/Footer/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
+    <div className="app-container">
       <Navbar />
-      <Prompt />
-    </>
-  )
+      <main>
+        <Prompt />
+      </main>
+      <Footer />
+    </div>
+  );
 }
 
 export default App
