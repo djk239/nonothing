@@ -1,0 +1,44 @@
+{
+    "prompts": [
+        {
+            "prompt": "There is no such thing as nothing",
+            "subprompt": "how many times does the letter n appear on this page",
+            "image src": "",
+            "url": "",
+            "answer": "11"
+
+        },
+        {
+            "prompt": "\"In every nothing, there's a something\"",
+            "subprompt": "same thing how many n's",
+            "image src": "",
+            "url": "",
+            "answer": "11"
+
+        },
+        {
+            "prompt": "Today we prove the existence of nothing",
+            "subprompt": "click submit",
+            "image src": "",
+            "url": "",
+            "answer": ""
+
+        },
+        {
+            "prompt": "The purpose of this webpage",
+            "subprompt": "nothing",
+            "image src": "",
+            "url": "",
+            "answer": ""
+
+        },
+        {
+            "prompt": "Go to this website",
+            "subprompt": "count the n's",
+            "image src": "",
+            "url": "https://www.merriam-webster.com/dictionary/nothing",
+            "answer": "450"
+
+        }
+    ]
+}
