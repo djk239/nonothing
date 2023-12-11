@@ -1,11 +1,11 @@
-import "./Footer.css"
+import styles from "./Footer.module.css"
 
 function Footer() {
 
   return (
     <>
-    <div className="footcontainer">
-        <h3 classname="footertxt">No. Nothing. 2024.</h3>
+    <div className={styles.footcontainer}>
+        <h3 className={styles.footertxt}>No. Nothing. 2024.</h3>
     </div>
     </>
   )
