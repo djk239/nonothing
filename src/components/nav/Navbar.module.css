@@ -37,4 +37,5 @@
     height: 9px;
     border-radius: 90px;
     box-sizing: border-box;
+    z-index: 10;
 }

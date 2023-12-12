@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    align-self: center;
+    margin-top: 8%;
+    width: 350px;
+    height: 485px;
+    border-radius: 15px;
+    background-color: #111111;
+    z-index: 100;
+  }
+
+  .head{
+    color: black;
+    text-shadow: -3px 1px 3px #202020, 0 0 2px #717171, 0 0 2px #fff, 0 0 5px #fff;
+    
+}
+  
+  .loginlist,
+  .signuplist {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .loginlist li,
+  .signuplist li {
+    margin-bottom: 15px;
+  }
+  
+  .loginlist label,
+  .signuplist label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .loginlist input,
+
+  .signuplist input {
+    width: 200px; /* Adjust as needed */
+    padding: 8px;
+  }
+  
