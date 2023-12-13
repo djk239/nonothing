@@ -6,10 +6,11 @@
     align-self: center;
     margin-top: 8%;
     width: 350px;
-    height: 485px;
     border-radius: 15px;
-    background-color: #111111;
+    background-color: #070707;
     z-index: 100;
+    box-shadow: 0px 0px 12px rgb(25, 25, 25);
+    transition: height .3s ease-in-out; 
   }
 
   .head{
@@ -37,9 +38,49 @@
   }
   
   .loginlist input,
-
   .signuplist input {
-    width: 200px; /* Adjust as needed */
+    width: 200px; 
     padding: 8px;
   }
+
+  .btnwrap{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+    
+  }
+
+  .btn{
+  padding: 2%;
+  margin: auto;
+  width: 85px;
+  color:#fff;
+  background-color: #010101;
+  }
+
+  .login{
+    height: 340px;
+  }
+  .signup {
+    height: 420px;
+}
+
+.topbar{
+  display: flex;
+  flex-direction: row;
+}
+
+.topbar img{
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 60%;
   
+}
+
+.topbar img:hover{
+cursor: pointer;
+
+}
+
