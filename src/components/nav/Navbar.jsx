@@ -1,6 +1,6 @@
 import styles from "./Navbar.module.css"
 import Menu from "../../popup/Menu.jsx"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 
 function Navbar() {
 
@@ -10,6 +10,26 @@ const handleClick = () => {
   setMenuOpen(!menuOpen);
 
 }
+
+const close = () => {
+  setMenuOpen(!menuOpen)
+}
+
+const closeMenuOnEscape = (event) => {
+  if (event.key === "Escape") {
+    setMenuOpen(false);
+  }
+};
+
+useEffect(() => {
+  // Attach the event listener when the component mounts
+  document.addEventListener("keydown", closeMenuOnEscape);
+
+  // Detach the event listener when the component unmounts
+  return () => {
+    document.removeEventListener("keydown", closeMenuOnEscape);
+  };
+}, []);
 
   return (
     <>
@@ -26,7 +46,7 @@ const handleClick = () => {
     </svg>
     </div>
     {menuOpen ? (
-    <Menu />
+    <Menu close={close} />
     ) :(<></>)
     }
 
